@@ -5,6 +5,7 @@
  * @arg: Argument passed to the function
  * Return: The amount of characters printed
  */
+
 int print_reversed(va_list arg)
 {
 	int len;
