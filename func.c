@@ -6,6 +6,7 @@
  *
  *Return: number of c or -1
  */
+
 int print_c(va_list params)
 {
 	char c = va_arg(params, int);
@@ -19,6 +20,7 @@ int print_c(va_list params)
  *
  *Return: number of cs to print
  */
+
 int print_s(va_list params)
 {
 	int count;
